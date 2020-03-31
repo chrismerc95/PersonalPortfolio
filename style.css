@@ -79,7 +79,7 @@
      align-items: center;
      font-size: 1.5rem;
      height: 60px;
-     background-color: rgb(224, 222, 222);
+     background-color: rgb(221, 216, 216);
      color: #fff;
  }
 
@@ -100,6 +100,8 @@
  /* 460px / 16px = 28.75em */
  @media (max-width: 28.75em) {
     html {
-        font-size: 50%;
+        font-size: 70%;
     }
 }
+
+/*create star field backdrop*/

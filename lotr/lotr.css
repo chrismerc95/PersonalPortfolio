@@ -1,0 +1,25 @@
+body {
+    display: flex;
+  }
+  
+  textarea {
+    font-size: 1.8rem;
+  }
+  
+  button {
+    background-color: crimson;
+    color: antiquewhite;
+    font-size: 1.5rem;
+  }
+
+  #homeButton {
+    height: 3rem;
+    border-radius: 15px;
+    font-size: larger; 
+    background-color: lightblue;
+    font-family: Helvetica;
+}
+
+  textarea {
+    font-family: cursive;
+  }

@@ -1,0 +1,31 @@
+:root {
+    box-sizing: border-box;
+    background-image: url("/Images/space2.jpeg");
+}
+
+a > img {
+    height: 12rem;
+    margin: 6px;
+    border: 4px solid lightskyblue;
+}
+
+button {
+    height: 3rem;
+    border-radius: 15px;
+    font-size: larger; 
+    background-color: lightblue;
+    font-family: Helvetica;
+}
+
+#homeButton {
+    height: 3rem;
+    border-radius: 15px;
+    font-size: larger; 
+    background-color: lightblue;
+    font-family: Helvetica;
+}
+
+.gallery {
+    background: url('http:www.example.com')
+}
+

@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(collage.jpg);
+}
+
+.pokeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    
+}
+
+#homeButton {
+  height: 3rem;
+  border-radius: 15px;
+  font-size: larger; 
+  background-color: lightblue;
+  font-family: Helvetica;
+}
+.scene {
+  width: 200px;
+  height: 260px;
+  border: 1px solid #CCC;
+  margin: 10px;
+  perspective: 600px;
+  border-radius: 30px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card__face {
+  position: absolute;
+  font-family: Roboto;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  color: black;
+  text-align: center;
+  font-size: 1rem;
+  backface-visibility: hidden;
+  border-radius: 30px;
+}
+
+.card__face--front {
+  background: rgb(20, 66, 218);
+/*change background image to pokeback */
+}
+
+.card__face--back {
+  transform: rotateY(180deg);
+  background-image: url(pokeface.jpeg);
+  background-position: center;
+}
+
+.card__face ul {
+  text-align: left;
+  list-style-type: square;
+}

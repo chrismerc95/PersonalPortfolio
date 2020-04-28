@@ -1,3 +1,6 @@
+body {
+  background: rgb(116, 174, 240);
+}
 header {
   display: flex;
   flex-direction: column;
@@ -52,7 +55,10 @@ header {
   text-align: center;
   font-size: 1rem;
   backface-visibility: hidden;
-  border-radius: 30px;
+  border-radius: 15px;
+  border-color: yellow;
+  border-style: ridge;
+  border-width: 5px;
 }
 
 .card__face--front {
